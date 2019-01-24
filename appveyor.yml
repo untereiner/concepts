@@ -21,6 +21,6 @@ build_script:
   - md build
   - cd build
   - cmake --version
-  - cmake -G "MinGW Makefiles".. -DCMAKE_SUPPRESS_REGENERATION=1
+  - cmake -G "MinGW Makefiles" ..
   #- cmake --build . --config "%CONFIGURATION%" -- /verbosity:minimal
   - mingw32-make.exe VERBOSE=1
