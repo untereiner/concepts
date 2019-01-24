@@ -19,6 +19,6 @@ build_script:
   - md build
   - cd build
   - cmake --version
-  - cmake -Wno-dev -Wno-deprecated -G "MinGW Makefiles" -DCMAKE_PREFIX_PATH=C:\mingw64 .. -DCMAKE_SUPPRESS_REGENERATION=1
+  - cmake -Wno-dev -Wno-deprecated -G "MinGW Makefiles" .. -DCMAKE_SUPPRESS_REGENERATION=1
   - cmake --build . --config "%CONFIGURATION%" -- /verbosity:minimal
   #- mingw32-make.exe VERBOSE=1
