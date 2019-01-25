@@ -1,5 +1,5 @@
 
-clone_folder: c:\projects\myproject
+clone_folder: C:\projects\myproject
 
 image:
   - Visual Studio 2017
@@ -24,4 +24,4 @@ build_script:
   - cmake -G "MinGW Makefiles" ..
   #- cmake --build . --config "%CONFIGURATION%" -- /verbosity:minimal
   - mingw32-make.exe VERBOSE=1
-  - cmd: "./main"
+  - cmd: "C:\projects\myproject\build\main.exe"
