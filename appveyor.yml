@@ -24,4 +24,4 @@ build_script:
   - cmake -G "MinGW Makefiles" ..
   #- cmake --build . --config "%CONFIGURATION%" -- /verbosity:minimal
   - mingw32-make.exe VERBOSE=1
-  - cmd: "C:\projects\myproject\build\main.exe"
+  - cmd: C:\projects\myproject\build\main.exe
